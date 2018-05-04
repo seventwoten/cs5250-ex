@@ -6,6 +6,8 @@ fibonacci:
 
         #<*YOUR x86-64 ASSEMBLY CODE HERE!*>
         
+        # Compile with: gcc -fPIC -static exercise-2.s
+        
         # function prologue
         pushq   %rbp
         movq    %rsp, %rbp
